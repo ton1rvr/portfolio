@@ -1,3 +1,5 @@
 # add the following to _config.yml file
 title: Tonin RIVORY
-theme: jeykll-theme-minimal
+logo: /assets/img/headshot_circle.png
+show_downloads: true
+theme: jekyll-theme-minimal
