@@ -85,7 +85,7 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 - **Techniques:**
   - **Data Cleaning and Preparation:** Handled missing values and ensured date formats were consistent across the dataset.
   - **Exploratory Data Analysis (EDA):** Analyzed vaccination trends over time and compared them with the number of new COVID-19 cases and deaths.
-  - **Visualization:** Created both static and interactive visualizations using Seaborn, Plotly, and Power BI to explore and present the data.
+  - **Visualization:** Created both static and interactive visualizations using Seaborn, Plotly to explore and present the data.
 - **Results:**
   - **Key Findings:** A strong correlation was observed between higher vaccination rates and the reduction of COVID-19 cases and deaths, although the impact varied across regions.
   - **Disparities:** The analysis also highlighted significant geographical disparities in vaccination coverage, underscoring the need for equitable distribution.
