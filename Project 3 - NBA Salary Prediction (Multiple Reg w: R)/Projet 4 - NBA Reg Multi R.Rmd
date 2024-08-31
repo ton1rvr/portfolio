@@ -1,0 +1,218 @@
+---
+title: "NBA Players' Salary Prediction using multiple regression model"
+author: "Koki Ando"
+date: "6/5/2018"
+output:
+  html_document:
+    code_folding: show
+    highlight: tango
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    number_section: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+I have done some data analysis about basketball before, but this time, I'm going to dive into nba players' salary data. 
+Through this analysis, what i liked the most about was predicting something using linear regression model, which I just taught myself a few days ago. hope you guys also find this data analysis interesting.
+
+![](https://s3-ap-southeast-2.amazonaws.com/koki25ando/Photos/b9b19af1783c46ec9ba8b9ce33435856.jpg)
+
+# Preparation
+
+## Required packages
+
+```{r warning=FALSE, message = FALSE}
+library(data.table)
+library(corrplot)
+library(GGally)
+library(tidyverse)
+library(PerformanceAnalytics)
+library(plotly)
+```
+
+## Data Preparation
+
+"salary.table" dataset was not provided at kaggle. So I scraped from [this site](https://www.basketball-reference.com/contracts/players.html) and created by myself.
+Full scraping script is on my [GitHub page](https://github.com/koki25ando/NBA-Players-2017-18-dataset). Please let me know whatever you think.
+I needed to create this dataset because I wanted to compare salary dataset of this season(17-18) with the nba players stats of the previous season(16-17). <br>
+I wanted to investigate how the stats effect next season's salary they get.
+
+```{r}
+salary.table <- 
+  read.csv("../input/salary/NBA_season1718_salary.csv")
+ss <- read.csv("../input/nba-players-stats/Seasons_Stats.csv")
+```
+
+Just in case you want to know how the datasets look like.
+
+## Data Component
+
+```{r}
+str(salary.table)
+str(ss)
+```
+
+### Data Cleaning
+
+I wanted to use the stats data of 2016-17 only, thus I filtered. 
+And unfortunattely stats per game were not included in this "ss" dataset. so I mutated them all.
+
+```{r}
+stats17 <- 
+  ss %>% filter(Year >= 2017) %>% 
+  select(Year:G, MP, PER, FG:PTS) %>% 
+  distinct(Player, .keep_all = TRUE) %>% 
+  mutate(MPG = MP/G, PPG = PTS/G, APG = AST/G, 
+         RPG = TRB/G, TOPG = TOV/G, BPG = BLK/G, 
+        SPG = STL/G) 
+```
+
+### Merging Data
+
+```{r}
+stats_salary <- merge(stats17, salary.table, by.x = "Player", by.y = "Player")
+names(stats_salary)[40] <- "salary17_18"
+stats_salary <- stats_salary[-39]
+```
+
+# Correlation check
+
+## Correlation check No.1
+
+```{r}
+corrplot(cor(stats_salary %>% 
+               select(salary17_18, MPG:SPG, 
+                      Age, PER, contains("%")), 
+             use = "complete.obs"), 
+         method = "circle",type = "upper")
+```
+
+## Correlation check No.2
+
+```{r}
+stats_salary_cor <- 
+  stats_salary %>% 
+  select(salary17_18, PPG, MPG, TOPG, RPG, PER, SPG, APG)
+ggpairs(stats_salary_cor)
+cor(stats_salary_cor)[,"salary17_18"]
+```
+
+Correlation strength is:
+PPG > MPG > TOPG > RPG > PER > SPG > APG
+
+The interesting part of this is that the number of turnover players make is linked to their salary, and the relationship has a positive correlation.<br>
+So, I interpreted this relationship like this: "the more turnovers they make" means that they are more involved in ball movements in games, which means that players who make turnovers are, at some extend, important to their team. and i thought this could be expressed as "agressiveness". I know this interpretation could not be appropriate one. 
+Next time, I should get data which include how long each player keep ball in games.
+
+# Data Visualization
+
+## Interactive Plot
+
+```{r warning = FALSE, message = FALSE}
+names(stats_salary)[5] <- "Team"
+plot_ly(data = stats_salary, x = ~salary17_18, y = ~PPG, color = ~Team,
+        hoverinfo = "text",
+        text = ~paste("Player: ", Player,
+                      "<br>Salary: ", format(salary17_18, big.mark = ","),"$",
+                      "<br>PPG: ", round(PPG, digits = 3),
+                      "<br>Team: ", Team)) %>% 
+  layout(
+    title = "Salary vs Point Per Game",
+    xaxis = list(title = "Salary USD"),
+    yaxis = list(title = "Point per Game")
+  )
+```
+
+If you hover on the points in this plot, you can check the player names. <br>
+As you can tell the most paid player is Stephen Curry.
+Last summer he got an extended contract with Warriors. 
+
+## Simple Linear Regression Model
+
+### Scatter plot with regression line
+
+```{r}
+stats_salary %>% 
+  ggplot(aes(x = salary17_18, y = PPG)) + 
+  geom_point() + 
+  geom_smooth(method = "lm") 
+```
+
+# Regression Analysis
+
+```{r}
+stats_salary_regression <- 
+  stats_salary %>% select(salary17_18, MPG:SPG)
+lm(salary17_18~., data=stats_salary_regression)
+```
+
+1. Point per game increases salary by $686,815 per year
+2. The more assists they make the more salary they get
+
+## Is the Player trusted by coach? How many turnovers do they make?
+
+```{r}
+avg.minutes <- mean(stats_salary_regression$MPG)
+avg.turnover <- mean(stats_salary_regression$TOPG)
+stats_salary_regression$Trusted <- as.factor(ifelse(stats_salary_regression$MPG >= avg.minutes, "Yes", "No"))
+stats_salary_regression$Agressiveness <- as.factor(ifelse(stats_salary_regression$TOPG >= avg.turnover, "Yes", "No"))
+head(stats_salary_regression)
+```
+
+## Prallel Slope Model
+
+### Scatter plot coloured by how many turnovers they make
+
+```{r}
+stats_salary_regression %>% 
+  ggplot(aes(x = salary17_18, y = PPG, colour = Agressiveness)) + 
+  geom_point() + 
+  geom_smooth(method="lm")
+```
+
+As I mentioned before, players who get paid more tend to make more turnovers.
+
+```{r}
+lm(formula = salary17_18 ~ Trusted * Agressiveness, data=stats_salary_regression)
+```
+
+If you are trusted by coach (which means, in this case, you get play time more than average in the entire league) and score, the salary increase by $325,079.
+
+# Modeling & Conclusion
+
+## Prediction Function
+
+Let's take an example.<br>
+In this season, as we all know Philadelphia 76ers are having a great season. This time i am going to fucus on JJ Redick.<br>
+
+![](https://s3-ap-southeast-2.amazonaws.com/koki25ando/Photos/USATSI_10765797_168384643_lowres.70e733de.fill-735x490.jpg)
+
+According to [Basketball Reference : J.J. Redick](https://www.basketball-reference.com/players/r/redicjj01.html), 
+Redick's stat is "Points per game : 16.7, Minutes per game : 31.2, Turnovers per game : 1.5" so far in this season.<br>
+And he doesn't have contract with 76ers for nect season.<br>
+Let's predict.
+
+## Analysis conclusion
+
+```{r}
+salary_prediction <- function(m, point, minutes, turn_over){
+  pre_new <- predict(m, data.frame(PPG = point, MPG = minutes, TOPG = turn_over))
+  msg <- paste("PPG:", point, ",MPG:", minutes, ",TOPG:", turn_over, " ==> Expected Salary: $", format(round(pre_new), big.mark = ","), sep = "")
+  print(msg)
+}
+```
+
+```{r}
+model <- lm(formula = salary17_18 ~ PPG + MPG + TOPG, data = stats_salary_regression)
+salary_prediction(model, 16.7, 31.2, 1.5)
+```
+
+According to my prediction model, he will get $13,959,120 next season.
+
+
