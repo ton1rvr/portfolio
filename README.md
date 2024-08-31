@@ -2,11 +2,12 @@
 
 ### Introduction
 
-Welcome to my Data Science Portfolio! This repository contains a collection of projects that demonstrate my expertise in data analysis, machine learning, and data visualization. Each project focuses on solving a real-world problem, showcasing my ability to handle complex datasets, develop predictive models, and generate meaningful insights. Below, you will find an overview of each project, including the techniques used, key results, and instructions for running the code.
+This repository contains a collection of projects that demonstrate my expertise in data science, machine learning, and data visualization. Each project focuses on solving a real-world problem, showcasing my ability to handle complex datasets, develop predictive models, and generate meaningful insights. 
+Below, you will find an overview of each project.
 
 ---
 
-### 1. Heart Attack Prediction Project
+### Project 1. Heart Attack Prediction Project
 
 **Objective:** The goal of this project is to develop a predictive model that can determine whether an individual is likely to experience a heart attack based on various health indicators.
 
@@ -30,7 +31,7 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 
 ---
 
-### 2. SMS Spam Filter Project
+### Project 2. SMS Spam Filter Project
 
 **Objective:** This project aims to build an efficient SMS spam filter using natural language processing (NLP) and machine learning techniques.
 
@@ -52,7 +53,7 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 
 ---
 
-### 3. NBA Salary Prediction Using Multiple Regression
+### Project 3. NBA Salary Prediction Using Multiple Regression
 
 **Objective:** The goal of this project is to predict NBA player salaries based on performance metrics and other attributes using multiple regression models.
 
@@ -77,7 +78,7 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 
 ---
 
-### 4. COVID-19 Vaccination and Impact Analysis
+### Project 4. COVID-19 Vaccination and Impact Analysis
 
 **Objective:** This project investigates global COVID-19 vaccination trends and their impact on the spread of the virus, using data from Our World in Data.
 
@@ -99,7 +100,7 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 
 ---
 
-### 5. Stock Market Analysis Using Yahoo Finance API
+### Project 5. Stock Market Analysis Using Yahoo Finance API
 
 **Objective:** Analyze the performance of specific stocks over time using the Yahoo Finance API, focusing on both technical and fundamental analysis.
 
@@ -120,9 +121,6 @@ Welcome to my Data Science Portfolio! This repository contains a collection of p
 3. Run the `stock_market_analysis.ipynb` notebook.
 
 ---
-
-### Conclusion
-
-This portfolio showcases my ability to work with diverse datasets, apply various machine learning and data analysis techniques, and create impactful visualizations. Each project is meticulously documented to provide clear insights and facilitate replication or further exploration. Whether you're a recruiter, collaborator, or fellow data scientist, I hope you find these projects insightful and engaging.
-
----
+### Contacts
+#### LinkedIn: Tonin RIVORY
+#### Email: toninrvr@hotmail.com
