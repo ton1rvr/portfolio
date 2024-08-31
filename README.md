@@ -7,7 +7,7 @@ Below, you will find an overview of each project.
 
 ---
 
-### Project 1. Heart Attack Prediction Project
+### Project 1. [Heart Attack Prediction Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%201%20-%20Heart%20Attack%20Prediction%20(ML%20w%3A%20python))
 
 **Objective:** The goal of this project is to develop a predictive model that can determine whether an individual is likely to experience a heart attack based on various health indicators.
 
@@ -31,7 +31,7 @@ Below, you will find an overview of each project.
 
 ---
 
-### Project 2. SMS Spam Filter Project
+### Project 2. [SMS Spam Filter Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%202%20-%20SMS%20Spam%20Filter%20(NLP%20w%3A%20python))
 
 **Objective:** This project aims to build an efficient SMS spam filter using natural language processing (NLP) and machine learning techniques.
 
@@ -53,7 +53,7 @@ Below, you will find an overview of each project.
 
 ---
 
-### Project 3. NBA Salary Prediction Using Multiple Regression
+### Project 3. [NBA Salary Prediction Using Multiple Regression](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%203%20-%20NBA%20Salary%20Prediction%20(Multiple%20Reg%20w%3A%20R))
 
 **Objective:** The goal of this project is to predict NBA player salaries based on performance metrics and other attributes using multiple regression models.
 
@@ -78,7 +78,7 @@ Below, you will find an overview of each project.
 
 ---
 
-### Project 4. COVID-19 Vaccination and Impact Analysis
+### Project 4. [COVID-19 Vaccination and Impact Analysis](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%204%20-%20COVID-19%20Analysis%20(data%20viz%20w%3A%20python))
 
 **Objective:** This project investigates global COVID-19 vaccination trends and their impact on the spread of the virus, using data from Our World in Data.
 
@@ -100,7 +100,7 @@ Below, you will find an overview of each project.
 
 ---
 
-### Project 5. Stock Market Analysis Using Yahoo Finance API
+### Project 5. [Stock Market Analysis Using Yahoo Finance API](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%205%20-%20Stock%20Market%20Analysis%20(YFinance%20API%20w%3A%20python))
 
 **Objective:** Analyze the performance of specific stocks over time using the Yahoo Finance API, focusing on both technical and fundamental analysis.
 
