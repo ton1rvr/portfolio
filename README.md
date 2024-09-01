@@ -1,10 +1,10 @@
-# Data Scientist / Analyst
+# Data Scientist / Analyst 
 
-### Contacts 
+## Contacts 
 #### LinkedIn: [Tonin RIVORY](https://www.linkedin.com/in/tonin-rivory-1207b5172/)
 #### Email: toninrvr@hotmail.com
 
-### Technical Skills: 
+## Technical Skills: 
 #### Python, SQL, R, SAS, Machine Learning, Power BI, Google Cloud Platform
 
 ## Education
