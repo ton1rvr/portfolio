@@ -10,36 +10,36 @@ Passionné par l'analyse de données et les statistiques, je suis déterminé à
 #### `Python, SQL, R, SAS, Machine Learning, Power BI, Google Cloud Platform`
 
 ## Education
-- **Université Paris 1 Panthéon-Sorbonne**, Paris, France | 2024 - 2025
+- Université Paris 1 Panthéon-Sorbonne, Paris, France | 2024 - 2025
 
-    Master 2 Modélisations statistiques économiques et financières (MOSEF)
-- **Université Paris-Saclay, Versailles**, France | 2023 - 2024
+    **Master 2 Modélisations statistiques économiques et financières (MOSEF)**
+- Université Paris-Saclay, Versailles, France | 2023 - 2024
 
-    Master 1 Ingénierie Statistique, Actuariat et Data Science à l’UVSQ.
+    **Master 1 Ingénierie Statistique, Actuariat et Data Science à l’UVSQ.**
   
         - Modèles stochastiques et statistiques
         - Programmation avec R, Python, SAS et SQL
         - Machine Learning et Deep Learning, NLP, LLM
         - Modèles actuariels : Chain Ladder, Bornhuetter-Ferguson
 
-- **Université Technologique de Sydney**, Australie | 2023
+- Université Technologique de Sydney, Australie | 2023
 
-    Semestre en échange universitaire dans le cadre du Master 1 G2C
-- **IAE Caen**, France | 2022 - 2023
+    **Semestre en échange universitaire dans le cadre du Master 1 G2C**
+- IAE Caen**, France | 2022 - 2023
 
-    Master 1 Gestion d’Actifs, Contrôle des Risques et Conformité (G2C)
+    **Master 1 Gestion d’Actifs, Contrôle des Risques et Conformité (G2C)**
   
         - Solide connaissance des marchés et instruments financiers
         - Pricing des titres financiers
         - Analyse de risque : cartographie, sensitivity analysis
-- **IAE Lyon School of Management**, France | 2019 - 2022
+- IAE Lyon School of Management, France | 2019 - 2022
 
-    Licence Techniques Quantitatives et Management (option : mathématiques renforcées), mention bien.
+    **Licence Techniques Quantitatives et Management** (option : mathématiques renforcées), mention bien.
 
 ## Work Experience
 - **PE Cube**, Paris, France | 2024 | 6 mois
 
-    Data Scientist Stage
+    **Data Scientist Stage**
 
     *Compétences développées :*
 
