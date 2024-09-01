@@ -56,7 +56,7 @@ Below, you will find an overview of each project.
 
 ### Project 1. [Heart Attack Prediction Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%201%20-%20Heart%20Attack%20Prediction%20(ML%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/tree/main/assets/img/heartattack.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/heartattack.png"> 
 
 **Overview** : This project focuses on predicting the likelihood of a heart attack based on health indicators such as age, cholesterol levels, and maximum heart rate. I used a variety of machine learning techniques including PCA, LDA, and SVM to analyze the data and develop predictive models.
 
@@ -68,7 +68,7 @@ Below, you will find an overview of each project.
 
 ### Project 2. [SMS Spam Filter Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%202%20-%20SMS%20Spam%20Filter%20(NLP%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/tree/main/assets/img/spam.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/spam.png"> 
 
 **Overview:** This project aims to build an SMS spam filter using natural language processing (NLP) techniques. The dataset comprised 5,572 SMS messages, and I employed methods such as TF-IDF vectorization and Naive Bayes classification to identify spam.
 
@@ -80,7 +80,7 @@ Below, you will find an overview of each project.
 
 ### Project 3. [NBA Salary Prediction Using Multiple Regression](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%203%20-%20NBA%20Salary%20Prediction%20(Multiple%20Reg%20w%3A%20R))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/tree/main/assets/img/nbasalary.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/nbasalary.png"> 
 
 **Overview:** The goal of this project is to predict NBA player salaries using performance metrics like Points Per Game (PPG) and Assists Per Game (APG). Various regression models, including Ridge and Lasso, were applied to determine the best predictors.
 
@@ -92,7 +92,7 @@ Below, you will find an overview of each project.
 
 ### Project 4. [COVID-19 Vaccination and Impact Analysis](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%204%20-%20COVID-19%20Analysis%20(data%20viz%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/tree/main/assets/img/coronavirus.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/coronavirus.png"> 
 
 **Overview:** This project analyzes global vaccination trends and their impact on COVID-19 case reductions. Using data from Our World in Data, I explored correlations between vaccination rates and health outcomes across different regions.
 
@@ -104,7 +104,7 @@ Below, you will find an overview of each project.
 
 ### Project 5. [Stock Market Analysis Using Yahoo Finance API](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%205%20-%20Stock%20Market%20Analysis%20(YFinance%20API%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/tree/main/assets/img/yfinance.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/yfinance.png"> 
 
 **Overview:** In this project, I analyzed stock performance over time, using both technical indicators like Moving Averages and RSI, and fundamental analysis through financial ratios. The data was sourced via the Yahoo Finance API.
 
