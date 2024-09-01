@@ -68,7 +68,7 @@ Below, you will find an overview of each project.
 
 ### Project 2. [SMS Spam Filter Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%202%20-%20SMS%20Spam%20Filter%20(NLP%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/spam.png"> 
+<img align="left" width="250" height="250" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/spam.png"> 
 
 **Overview:** This project aims to build an SMS spam filter using natural language processing (NLP) techniques. The dataset comprised 5,572 SMS messages, and I employed methods such as TF-IDF vectorization and Naive Bayes classification to identify spam.
 
@@ -92,7 +92,7 @@ Below, you will find an overview of each project.
 
 ### Project 4. [COVID-19 Vaccination and Impact Analysis](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%204%20-%20COVID-19%20Analysis%20(data%20viz%20w%3A%20python))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/coronavirus.png"> 
+<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/coronavirus.jpg"> 
 
 **Overview:** This project analyzes global vaccination trends and their impact on COVID-19 case reductions. Using data from Our World in Data, I explored correlations between vaccination rates and health outcomes across different regions.
 
