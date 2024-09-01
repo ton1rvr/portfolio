@@ -56,6 +56,7 @@ Below, you will find an overview of each project.
 ### Project 1. [Heart Attack Prediction Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%201%20-%20Heart%20Attack%20Prediction%20(ML%20w%3A%20python))
 
 <img align="left" width="250" height="150" src="https://github.com/archd3sai/Portfolio/blob/master/Images/telecom.jpg"> 
+https://github.com/ton1rvr/portfolio/
 
 **Overview** : This project focuses on predicting the likelihood of a heart attack based on health indicators such as age, cholesterol levels, and maximum heart rate. I used a variety of machine learning techniques including PCA, LDA, and SVM to analyze the data and develop predictive models.
 
