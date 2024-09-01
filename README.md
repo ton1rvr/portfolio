@@ -1,56 +1,58 @@
 # Data Scientist / Analyst
 
-#### Technical Skills: Python, SQL, …
-
-### Contacts
-#### LinkedIn: Tonin RIVORY
+### Contacts 
+#### LinkedIn: [Tonin RIVORY](https://www.linkedin.com/in/tonin-rivory-1207b5172/)
 #### Email: toninrvr@hotmail.com
+
+### Technical Skills: 
+#### Python, SQL, R, SAS, Machine Learning, Power BI, Google Cloud Platform
 
 ## Education
 - **Université Paris 1 Panthéon-Sorbonne**, Paris, France | 2024 - 2025
 
-Master 2 Modélisations statistiques économiques et financières (MOSEF)
+    Master 2 Modélisations statistiques économiques et financières (MOSEF)
 - **Université Paris-Saclay, Versailles**, France | 2023 - 2024
 
-Master 1 Ingénierie Statistique, Actuariat et Data Science à l’UVSQ.
-    - *Modèles stochastiques et statistiques*
-    - *Programmation avec R, Python, SAS et SQL*
-    - *Machine Learning et Deep Learning, NLP, LLM*
-    - *Modèles actuariels : Chain Ladder, Bornhuetter-Ferguson*
+    Master 1 Ingénierie Statistique, Actuariat et Data Science à l’UVSQ.
+  
+        - Modèles stochastiques et statistiques
+        - Programmation avec R, Python, SAS et SQL
+        - Machine Learning et Deep Learning, NLP, LLM
+        - Modèles actuariels : Chain Ladder, Bornhuetter-Ferguson
 
 - **Université Technologique de Sydney**, Australie | 2023
 
-  Semestre en échange universitaire dans le cadre du Master 1 G2C
+    Semestre en échange universitaire dans le cadre du Master 1 G2C
 - **IAE Caen**, France | 2022 - 2023
 
-Master 1 Gestion d’Actifs, Contrôle des Risques et Conformité (G2C)
-    - *Solide connaissance des marchés et instruments financiers*
-    - *Pricing des titres financiers*
-    - *Analyse de risque : cartographie, sensitivity analysis*
+    Master 1 Gestion d’Actifs, Contrôle des Risques et Conformité (G2C)
+  
+        - Solide connaissance des marchés et instruments financiers
+        - Pricing des titres financiers
+        - Analyse de risque : cartographie, sensitivity analysis
 - **IAE Lyon School of Management**, France | 2019 - 2022
 
-  Licence Techniques Quantitatives et Management (option : mathématiques renforcées), mention bien.
+    Licence Techniques Quantitatives et Management (option : mathématiques renforcées), mention bien.
 
 ## Work Experience
 - **PE Cube**, Paris, France | 2024 | 6 mois
 
-Data Scientist Stage
+    Data Scientist Stage
 
-*Compétences développées :*
-    - *Programmation : Python, Apps Script, Docker, GCP*
-    - *Bases de Données : SQL, Metabase*
-    - *Analyse de performances et de données financières*
-    - *Collecte de donnée par API et scraping*
-    - *Visualisation de données : Seaborn, Plotly*
+    *Compétences développées :*
+
+        - Programmation : Python, Apps Script, Docker, GCP
+        - Bases de Données : SQL, Metabase
+        - Analyse de performances et de données financières
+        - Collecte de donnée par API et scraping
+        - Visualisation de données : Seaborn, Plotly
 
 
 ## Projects 📊
 
 ### Introduction
-This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
-
-This repository contains a collection of projects that demonstrate my expertise in data science, machine learning, and data visualization. Each project focuses on solving a real-world problem, showcasing my ability to handle complex datasets, develop predictive models, and generate meaningful insights. 
-Below, you will find an overview of each project.
+This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. 
+Each project focuses on solving a real-world problem, showcasing my ability to handle complex datasets, develop predictive models, and generate meaningful insights. 
 
 ---
 
@@ -68,7 +70,7 @@ Below, you will find an overview of each project.
 
 ### Project 2. [SMS Spam Filter Project](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%202%20-%20SMS%20Spam%20Filter%20(NLP%20w%3A%20python))
 
-<img align="left" width="250" height="250" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/spam.png"> 
+<img align="left" width="200" height="200" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/spam.png"> 
 
 **Overview:** This project aims to build an SMS spam filter using natural language processing (NLP) techniques. The dataset comprised 5,572 SMS messages, and I employed methods such as TF-IDF vectorization and Naive Bayes classification to identify spam.
 
@@ -80,7 +82,7 @@ Below, you will find an overview of each project.
 
 ### Project 3. [NBA Salary Prediction Using Multiple Regression](https://github.com/ton1rvr/portfolio/tree/07d5fa29fe8bedf42a502b5657f44f53c12fa21a/Project%203%20-%20NBA%20Salary%20Prediction%20(Multiple%20Reg%20w%3A%20R))
 
-<img align="left" width="250" height="150" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/nbasalary.png"> 
+<img align="left" width="200" height="200" src="https://github.com/ton1rvr/portfolio/blob/main/assets/img/nbasalary.png"> 
 
 **Overview:** The goal of this project is to predict NBA player salaries using performance metrics like Points Per Game (PPG) and Assists Per Game (APG). Various regression models, including Ridge and Lasso, were applied to determine the best predictors.
 
