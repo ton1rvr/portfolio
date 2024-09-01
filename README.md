@@ -1,11 +1,13 @@
 # Data Scientist / Analyst 
 
+Passionné par l'analyse de données et les statistiques, je suis déterminé à appliquer mes compétences en data science et en programmation pour améliorer les performances opérationnelles. Ma rigueur, mon organisation et ma capacité d'analyse me permettent de relever les défis complexes liés à l'exploitation des données, au développement de modèles prédictifs. 
+
 ## Contacts 
 #### LinkedIn: [Tonin RIVORY](https://www.linkedin.com/in/tonin-rivory-1207b5172/)
 #### Email: toninrvr@hotmail.com
 
 ## Technical Skills: 
-#### Python, SQL, R, SAS, Machine Learning, Power BI, Google Cloud Platform
+#### `Python, SQL, R, SAS, Machine Learning, Power BI, Google Cloud Platform`
 
 ## Education
 - **Université Paris 1 Panthéon-Sorbonne**, Paris, France | 2024 - 2025
