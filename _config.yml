@@ -3,3 +3,8 @@ logo: /assets/profile.png
 description: Passionné par l'analyse de données et les statistiques, je suis déterminé à appliquer mes compétences en data science et en programmation pour améliorer les performances organisationnelles. Ma rigueur, mon organisation et ma capacité d'analyse me permettent de relever les défis complexes liés à l'exploitation des données, au développement de modèles prédictifs, essentiels pour guider les stratégies d'entreprise et anticiper les risques.
 show_downloads: true
 theme: jekyll-theme-minimal
+
+---
+---
+
+@import "{{ site.theme }}";
